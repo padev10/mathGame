@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- the score section -->
+      <div class="score" id="score">
+        <!-- we set a span as the value will change later -->
+        Score: <span id="scoreValue"></span>
+      </div>
+      <!-- correct message section -->
+      <div id="correct">Correct</div>
+      <div id="wrong">Wrong</div>
+      <div id="question"></div>
+      <div id="instructions">Click on the correct answer</div>
+      <div class="boxes">
+        <div class="answer-container" id="box1"></div>
+        <div class="answer-container" id="box2"></div>
+        <div class="answer-container" id="box3"></div>
+        <div class="answer-container" id="box4"></div>
+      </div>
+      <div id="sReset">Start Game</div>
+      <div id="timeRemaining">
+        Time Remaining: <span id="timeRemainValue">60</span> sec
+      </div>
+      <div id="gameOver"></div>
+    </div>
+  </body>
+  <!-- javascript insertion -->
+  <script src="javascript.js"></script>
+</html>
